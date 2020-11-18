@@ -206,14 +206,14 @@ h3 {
 }
 
 h4 {
-	font-size: 4em;
+	font-size: 3em;
 	line-height: .8em;
 	margin-bottom: 0px;
 }
 
 h5 {
 	font-weight: 500;
-	font-size: 3.5em;
+	font-size: 2.5em;
 	line-height: .8em;
 	margin-bottom: 0px;
 	margin-top: 18px;
@@ -239,10 +239,10 @@ p {
 	  
 .header {
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: column;
 	justify-content: space-between;
-	align-items: baseline;
-	height: 180px;
+	align-content: flex-start;
+	height: 300px;
 }
 
 .headertextleft {
@@ -257,7 +257,7 @@ p {
 
 #name {
 	text-align: left;
-	font-size: 4em;
+	font-size: 7em;
 }
 #title {
 	text-align: right;
@@ -265,7 +265,7 @@ p {
 }
 	  
 #bio {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 hr {
