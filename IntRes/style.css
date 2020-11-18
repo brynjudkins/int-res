@@ -201,7 +201,7 @@ h2 {
 h3 {
 	font-family: minion-3-display, serif;
 	font-style: normal;
-	font-size: 2.5em;
+	font-size: 3.5em;
 	line-height: 0px;
 }
 
@@ -246,12 +246,12 @@ p {
 }
 
 .headertextleft {
-	flex-basis: 60%;
+	flex-basis: 50%;
 	align-self: flex-end;
 }
 
 .headertextright {
-	flex-basis: 40%;
+	flex-basis: 50%;
 	align-self: flex-end;
 }
 
@@ -262,8 +262,12 @@ p {
 #title {
 	text-align: right;
 	font-size: 2.5em;
-}	  
-	
+}
+	  
+#bio {
+	font-size: 3em;
+}
+
 hr {
 	width: 80vw;
 }	
@@ -294,7 +298,11 @@ hr.one {
 	margin-top: 15px;
 	flex-basis: 50%;
 	overflow: visible;
-}	
+}
+
+.date {
+	font-size: 2em;
+}
 
 .footer {
 	display: flex;
@@ -311,6 +319,8 @@ hr.one {
 .foot {
 	flex-basis: auto;
 	text-align: left;
+	font-size: 3em;
+	line-height: 1.5em;
 }
 	
 #website {
