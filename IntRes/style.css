@@ -212,7 +212,7 @@ h4 {
 }
 
 h5 {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 2.5em;
 	line-height: .8em;
 	margin-bottom: 0px;
@@ -222,7 +222,7 @@ h5 {
 p {
 	font-size: 2.5em;
 	line-height: 1em;
-	margin-top: 6px;
+	margin-top: 12px;
 	margin-bottom: 0px;
 }	  
 	  
@@ -238,10 +238,11 @@ p {
 }  
 	  
 .header {
+	width: 80vw;
 	display: flex;
-	flex-direction: column;
+	flex-flow: row wrap;
 	justify-content: space-between;
-	align-content: flex-start;
+	align-items: flex-start;
 	height: 300px;
 }
 
@@ -322,7 +323,11 @@ p.foot, a.foot {
 	font-size: 3em;
 	line-height: 1.5em;
 }
-	
+
+#number {
+	display: none;
+}	
+	  
 #website {
 	margin-top: 5px;		
 }	
