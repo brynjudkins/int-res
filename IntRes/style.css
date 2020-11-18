@@ -272,3 +272,96 @@ hr.one {
 	margin-top: 5px;		
 }	
 }
+
+@media (max-width: 890px) { 
+
+.container {
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: flex-start;
+}  
+	  
+.header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	height: 92px;
+}
+
+.headertextleft {
+	flex-basis: 60%;
+	align-self: flex-end;
+}
+
+.headertextright {
+	flex-basis: 40%;
+	align-self: flex-end;
+}
+
+#name {
+	text-align: left;
+	font-size: 2.5em;
+}
+#title {
+	text-align: right;
+	font-size: 1em;
+}	  
+	
+hr {
+	width: 80vw;
+}	
+	
+hr.one {
+	position: relative;
+	top: -20px;
+	z-index: -1;
+}	
+	
+.bod {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: stretch;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.left {
+	flex-basis: 50%;
+	border-right: none;
+	overflow: visible;
+}	
+	
+.right {
+	margin-top: 15px;
+	flex-basis: 50%;
+	overflow: visible;
+}	
+
+.footer {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 60px;
+	border-top: 1px solid;
+	border-top-color: #1D261F;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}	
+	
+.foot {
+	flex-basis: auto;
+	text-align: left;
+}
+	
+#website {
+	margin-top: 5px;		
+}	
+}
