@@ -178,7 +178,9 @@ hr.two {
 }
 
 
-@media (max-width: 890px), (max-width: 812px) { 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) { 
 
 .container {
 	width: 80vw;
